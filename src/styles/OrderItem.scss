@@ -4,8 +4,10 @@
 	display: grid;
 	grid-template-columns: auto 1fr auto auto;
 	gap: 16px;
+	padding: 0 20px 0 0;
 	margin-bottom: 24px;
 	align-items: center;
+	
 }
 .OrderItem figure {
 	margin: 0;

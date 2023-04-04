@@ -1,8 +1,11 @@
 nav {
     display: flex;
-    justify-content: space-between;
-    padding: 0 24px;
+    justify-content: space-evenly;
     border-bottom: 1px solid var(--very-light-pink);
+    background-color: #5F7470;
+    position:fixed;
+    width: 100%;
+    top: 0;
   }
   .menu {
     display: none;
@@ -21,8 +24,11 @@ nav {
   }
   .navbar-left {
     display: flex;
+    gap:1rem;
   }
   .navbar-left ul {
+    display: flex;
+    gap: .5rem;
     margin-left: 12px;
   }
   .navbar-left ul li a,

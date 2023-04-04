@@ -1,11 +1,18 @@
 @import 'vars';
 
 .ProductList {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, 240px);
-	gap: 26px;
-	place-content: center;
-	margin: 3em 0 0 0;
+	// display: grid;
+	// grid-template-columns: repeat(auto-fill, 240px);
+	// gap: 26px;
+	// place-content: center;
+	// margin: 6em 0 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	margin: 6em 0 0 0;
+	padding: 0 40px;
+	justify-content: space-evenly;
+
 }
 
 @media (max-width: 640px) {

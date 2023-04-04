@@ -11,6 +11,12 @@
 	bottom: auto;
 	border-radius: 6px;
 	border:1px solid var(--very-light-pink)  ;
+	
+}
+.my-order-content{
+	height:auto;
+	max-height: 300px;
+	overflow: auto;
 }
 .title-container {
 	display: flex;
@@ -18,6 +24,7 @@
 .title-container img {
 	transform: rotate(180deg);
 	margin-right: 14px;
+	
 }
 .title {
 	font-size: var(--lg);
@@ -32,6 +39,7 @@
 	margin-bottom: 24px;
 	border-radius: 8px;
 	padding: 0 24px;
+	
 }
 .order p:nth-child(1) {
 	display: flex;
@@ -61,4 +69,8 @@
 	.MyOrder {
 		width: 100%;
 	}
+	.my-order-content{
+		max-height: 120px;
+	}
 }
+
