@@ -6,4 +6,5 @@ Proyecto del curso práctico de React
 Tienda con carrito de compras  
 Suma de total de productos   
 Eliminación de productos  
-API:https://api.escuelajs.co/api/v1/products
+API:https://api.escuelajs.co/api/v1/products  
+Live URl: https://react-shop-k.netlify.app/
